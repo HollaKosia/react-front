@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "nazwa": "Zupa Pomidorowa",
+    "skład": "pomidory, makaron, woda",
+    "cena": "10pln"
+  },
+  {
+    "id": "2",
+    "nazwa": "Zupa Ogórkowa",
+    "skład": "ogórki, makaron, woda",
+    "cena": "12pln"
+  }
+]

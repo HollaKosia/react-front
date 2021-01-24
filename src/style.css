@@ -1,3 +1,106 @@
-h1, p {
-  font-family: Lato;
+body {
+  font-family: "Open Sans";
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+.link {
+  margin-right: 0.5rem;
+}
+
+h1 {
+  margin-left: 1rem;
+}
+h2 {
+  margin-left: 2rem;
+}
+
+.oferta {
+  color: palevioletred;
+}
+
+.autocomplete,
+.component-filter {
+  display: block;
+  width: 80vw;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.component-filter {
+  height: 2.5rem;
+  background-color: palevioletred;
+  color: white;
+}
+
+.menuItem {
+  margin: 1rem auto 0 auto;
+  width: 80vw;
+  font-weight: 600;
+}
+
+.iloscLabel {
+  margin-right: 1rem;
+}
+
+.menu-oferta {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+button {
+  text-align: center;
+  margin-top: 1rem;
+  width: 45%;
+  border: 1px solid palevioletred;
+  background-color: pink;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: 1rem auto 0 auto;
+}
+
+.licznik {
+  text-align: center;
+}
+
+.licznik p {
+  font-size: 2rem;
+}
+
+.zamowienie fieldset {
+  width: 90vw;
+  margin: 0 auto;
+  border-bottom: 1px solid palevioletred;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: palevioletred;
+}
+
+button a {
+  color: white;
+}
+
+button a:hover {
+  color: white;
+}
+
+.danie > p {
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+form.logowanie * {
+  display: block;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+form.logowanie button {
+  margin-top: 1rem;
 }
